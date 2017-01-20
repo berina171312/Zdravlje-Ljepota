@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+*{
+    box-sizing: border-box;
+	
+}
+
+
+body{
+	
+	background-image: url(slike/gljiva.jpg);
+	background-repeat: repeat-y;
+	background-size:cover;
+}
+
+.okvir {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.Header
+{
+	width: 100%;
+	padding: 20px 0;
+	background-color: rgba(56, 56, 56, 0.43);
+}
+
+/*h1 za naziv portala*/
+#ljiz
+{
+	font-family: Kaushan Script, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color:#ffcccc;
+}
+
+
+
+ul
+{
+	margin-left: 0px;
+	padding: 0px;
+	background-color: rgba(56, 56, 56, 0.43);
+}
+
+ul  li{
+	
+	background-color: rgba(56, 56, 56, 0.43);
+	width: 188px;
+	height: 50px;
+	line-height: 50px;
+	font-family: Kaushan Script, sans-serif;
+	font-size: 22px;
+	float: left;
+	text-align:center;
+	list-style: none;
+	margin-right: 1%;
+}
+
+#prijava
+{
+	width: 200px;
+	margin-right: 0px;
+}
+ul  li a{
+	
+	color: #ffcccc;
+	text-decoration: none;
+	display: block;
+}
+
+ul li a:hover
+{
+	background: #ff4d4d;
+	transition: all 0.45s;
+	opacity: 0.7;
+}
+
+
+ul ul
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: rgba(56, 56, 56, 0.43);
+	
+}
+
+ul li ul li
+{
+	background-color: rgba(56, 56, 56, 0.43);
+	margin: 0px;
+	margin-bottom: 2%;
+	display:none;
+
+}
+
+ul li:hover ul li
+{
+	display:block;
+}
+
+#iefix
+{
+	position:relative;
+    z-index:1000;
+	max-width: 100%;
+}
+
+#submenu1
+{
+	position: relative;
+    display: inline-block;
+}
+
+#submenu2
+{
+	position: relative;
+    display: inline-block;
+}
+
+#news
+{
+	margin-left: 25.5%;
+	margin-right: 25.5%;
+	border-bottom-style: solid;
+}
+
+#vijesti
+{
+	font-family: Kaushan Script, sans-serif;
+	text-align: center;
+	color: black;
+}
+
+
+#registracija_forma
+{
+   margin-left: 34%;
+   margin-right: 34%;
+   margin-top: 2%;
+
+}
+
+table
+{
+	width: 100%;
+	height: auto;
+	
+}
+
+.registracija_form
+{
+	border: 1px solid black;
+	padding: 15px;
+	background: rgba(157, 159, 157, 0.7);
+	color: white;
+	height: auto;
+	width: 100%;
+}
+
+input
+{
+	width: 100%;
+	height: 38px;
+	margin-top: 10px;
+	outline: 0;
+}
+
+label
+{
+	font-family: Kaushan Script, sans-serif;
+	color: black;
+	text-align: center;
+}
+
+
+td
+{
+	text-align: center;
+}
+
+.dugme
+{
+	border: 1px solid black;
+	font-family: Kaushan Script, sans-serif;
+	font-size: 18px;
+}
+
+.dugme:hover
+{
+	background: #ff4d4d;
+	transition: all 0.45s;
+	opacity: 0.7;
+	
+}
+
