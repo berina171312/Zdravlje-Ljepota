@@ -14,7 +14,7 @@
 </HEAD>
 <BODY> 
 <?php
- $veza = new PDO("mysql:dbname=wtspirala4;host=localhost;charset=utf8", "wtberina", "wt.moja.lozinka.1.s4");
+ $veza = new PDO('mysql:host=' . getenv('MYSQL_SERVICE_HOST') . ';port=3306;dbname=wtspirala4', 'wtberina', 'wt.moja.lozinka.1.s4');
  $veza->exec("set names utf8");
 
    $poruka = "Koju novost želite dodati?";

@@ -23,7 +23,7 @@ switch($method) {
     case 'GET':
         zag(); $data = $_GET; rest_get($request, $data);
         
-		$veza = new PDO("mysql:dbname=wtspirala4;host=localhost;charset=utf8", "wtberina", "wt.moja.lozinka.1.s4");
+		$veza = new PDO('mysql:host=' . getenv('MYSQL_SERVICE_HOST') . ';port=3306;dbname=wtspirala4', 'wtberina', 'wt.moja.lozinka.1.s4');
        $veza->exec("set names utf8");
 		if(isset($_GET['idN'])){
 	   $id_k = $_GET['idN'];
